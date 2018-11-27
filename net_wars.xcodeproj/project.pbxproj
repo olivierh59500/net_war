@@ -8,13 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		65C71C7C219E549B000C33E8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65C71C7B219E549B000C33E8 /* AppDelegate.swift */; };
-		65C71C7E219E549B000C33E8 /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 65C71C7D219E549B000C33E8 /* art.scnassets */; };
 		65C71C80219E549B000C33E8 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65C71C7F219E549B000C33E8 /* GameViewController.swift */; };
 		65C71C83219E549B000C33E8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 65C71C81219E549B000C33E8 /* Main.storyboard */; };
 		65C71C85219E549E000C33E8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 65C71C84219E549E000C33E8 /* Assets.xcassets */; };
 		65C71C88219E549E000C33E8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 65C71C86219E549E000C33E8 /* LaunchScreen.storyboard */; };
 		65C71C93219E549E000C33E8 /* net_warsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65C71C92219E549E000C33E8 /* net_warsTests.swift */; };
 		65C71C9E219E549E000C33E8 /* net_warsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65C71C9D219E549E000C33E8 /* net_warsUITests.swift */; };
+		65C71CAC219E6043000C33E8 /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 65C71CAB219E6043000C33E8 /* art.scnassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,7 +37,6 @@
 /* Begin PBXFileReference section */
 		65C71C78219E549B000C33E8 /* net_wars.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = net_wars.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		65C71C7B219E549B000C33E8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		65C71C7D219E549B000C33E8 /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
 		65C71C7F219E549B000C33E8 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 		65C71C82219E549B000C33E8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		65C71C84219E549E000C33E8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -49,6 +48,7 @@
 		65C71C99219E549E000C33E8 /* net_warsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = net_warsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		65C71C9D219E549E000C33E8 /* net_warsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = net_warsUITests.swift; sourceTree = "<group>"; };
 		65C71C9F219E549E000C33E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		65C71CAB219E6043000C33E8 /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; name = art.scnassets; path = ../../../../Desktop/HitTheTreeAssets/art.scnassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +79,7 @@
 		65C71C6F219E549B000C33E8 = {
 			isa = PBXGroup;
 			children = (
+				65C71CAB219E6043000C33E8 /* art.scnassets */,
 				65C71C7A219E549B000C33E8 /* net_wars */,
 				65C71C91219E549E000C33E8 /* net_warsTests */,
 				65C71C9C219E549E000C33E8 /* net_warsUITests */,
@@ -100,7 +101,6 @@
 			isa = PBXGroup;
 			children = (
 				65C71C7B219E549B000C33E8 /* AppDelegate.swift */,
-				65C71C7D219E549B000C33E8 /* art.scnassets */,
 				65C71C7F219E549B000C33E8 /* GameViewController.swift */,
 				65C71C81219E549B000C33E8 /* Main.storyboard */,
 				65C71C84219E549E000C33E8 /* Assets.xcassets */,
@@ -232,8 +232,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				65C71C7E219E549B000C33E8 /* art.scnassets in Resources */,
 				65C71C88219E549E000C33E8 /* LaunchScreen.storyboard in Resources */,
+				65C71CAC219E6043000C33E8 /* art.scnassets in Resources */,
 				65C71C85219E549E000C33E8 /* Assets.xcassets in Resources */,
 				65C71C83219E549B000C33E8 /* Main.storyboard in Resources */,
 			);
